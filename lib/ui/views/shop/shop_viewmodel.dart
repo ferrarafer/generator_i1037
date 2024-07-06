@@ -1,5 +1,4 @@
 import 'package:i1037/app/app.locator.dart';
-import 'package:i1037/app/app.router.dart';
 import 'package:i1037/ui/views/gift_guide/gift_guide_view.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';

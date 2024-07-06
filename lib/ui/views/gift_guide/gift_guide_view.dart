@@ -16,15 +16,21 @@ class GiftGuideView extends StackedView<GiftGuideViewModel> {
     Widget? child,
   ) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              'GIFT GUIDE - Group ID: $groupId',
-              style: const TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+            const Text(
+              'GIFT GUIDE',
+              style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
             ),
+            verticalSpaceSmall,
+            Text(
+              'Group ID: $groupId',
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
+            ),
+            verticalSpaceMedium,
             MaterialButton(
               color: kcDarkGreyColor,
               onPressed: viewModel.goToHome,

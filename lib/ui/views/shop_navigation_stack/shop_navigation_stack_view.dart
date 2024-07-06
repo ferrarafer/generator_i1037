@@ -7,7 +7,7 @@ import 'shop_navigation_stack_viewmodel.dart';
 
 class ShopNavigationStackView
     extends StackedView<ShopNavigationStackViewModel> {
-  const ShopNavigationStackView({Key? key}) : super(key: key);
+  const ShopNavigationStackView({super.key});
 
   @override
   Widget builder(

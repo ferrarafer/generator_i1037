@@ -7,7 +7,7 @@ import 'explore_navigation_stack_viewmodel.dart';
 
 class ExploreNavigationStackView
     extends StackedView<ExploreNavigationStackViewModel> {
-  const ExploreNavigationStackView({Key? key}) : super(key: key);
+  const ExploreNavigationStackView({super.key});
 
   @override
   Widget builder(

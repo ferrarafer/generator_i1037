@@ -6,7 +6,7 @@ import 'package:stacked/stacked.dart';
 import 'shop_viewmodel.dart';
 
 class ShopView extends StackedView<ShopViewModel> {
-  const ShopView({Key? key}) : super(key: key);
+  const ShopView({super.key});
 
   @override
   Widget builder(
@@ -15,7 +15,7 @@ class ShopView extends StackedView<ShopViewModel> {
     Widget? child,
   ) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

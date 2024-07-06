@@ -6,7 +6,7 @@ import 'package:i1037/ui/common/ui_helpers.dart';
 import 'home_viewmodel.dart';
 
 class HomeView extends StackedView<HomeViewModel> {
-  const HomeView({Key? key}) : super(key: key);
+  const HomeView({super.key});
 
   @override
   Widget builder(
@@ -17,7 +17,7 @@ class HomeView extends StackedView<HomeViewModel> {
     return Scaffold(
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 25.0),
+          padding: const EdgeInsets.all(25.0),
           child: Center(
             child: Column(
               mainAxisSize: MainAxisSize.max,
