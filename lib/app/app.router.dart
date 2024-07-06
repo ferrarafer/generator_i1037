@@ -195,33 +195,6 @@ class ExploreNavigationStackViewRouter extends _i1.RouterBase {
   Map<Type, _i1.StackedRouteFactory> get pagesMap => _pagesMap;
 }
 
-// class NestedGiftGuideViewArguments {
-//   const NestedGiftGuideViewArguments({
-//     this.key,
-//     required this.groupId,
-//   });
-
-//   final _i6.Key? key;
-
-//   final String groupId;
-
-//   @override
-//   String toString() {
-//     return '{"key": "$key", "groupId": "$groupId"}';
-//   }
-
-//   @override
-//   bool operator ==(covariant NestedGiftGuideViewArguments other) {
-//     if (identical(this, other)) return true;
-//     return other.key == key && other.groupId == groupId;
-//   }
-
-//   @override
-//   int get hashCode {
-//     return key.hashCode ^ groupId.hashCode;
-//   }
-// }
-
 extension NavigatorStateExtension on _i9.NavigationService {
   Future<dynamic> navigateToStartupView([
     int? routerId,
